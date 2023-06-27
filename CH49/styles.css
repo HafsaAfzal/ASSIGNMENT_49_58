@@ -1,0 +1,152 @@
+body{
+    background-color: rgb(251, 249, 249);
+}
+form{
+    max-width: 300px;
+    margin: 0% auto;
+    
+}
+.field{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    border: none;
+    border-radius: 50px;
+}
+h1{
+    text-align: center;
+    margin-top: 10%;
+
+}
+#div1{
+    background-color: rgb(229, 228, 247);
+    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+    border:none;
+    border-width: 2px;
+    border-radius: 50px;
+    display: inline-block;
+    width: 400px;
+    box-shadow: 8px 6px 8px 6px rgb(184, 181, 221);
+}
+button{
+    padding: 10px;
+    margin-bottom: 60px;
+    background-color: darkblue;
+    border: none;
+    border-radius: 80px;
+    color: white;
+    width: 200px;
+    margin-left: 60px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: blue;
+    padding: 11px;
+}
+#card{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(202, 238, 250);
+    border-radius: 4px;
+    box-shadow:4px 3px 4px 3px lightblue;
+    width: 400px;
+    display: inline-block;
+
+}
+.p{
+    margin: 5px 6px;
+    padding: 5px 4px;
+    line-height: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#button{
+    color: blue;
+    font-family: sans-serif;
+    cursor: pointer;
+    margin-bottom: 3px;
+    
+}
+#p1{
+    display: block;
+}
+#p2{
+    display: none;
+}
+#result{
+    display: inline-block;
+    
+}
+#result-div{
+    display: inline-block;
+
+}
+
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+  }
+  
+  .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    width: 100px;
+    height: 200px;
+  }
+  .image-row img {
+      margin: 10px;
+  }
+  
+  .close {
+    color: #ccc;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
